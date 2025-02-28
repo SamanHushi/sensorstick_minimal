@@ -322,9 +322,9 @@
 		(uuid "f9d33e83-e06f-4012-9a14-9b3dc1086b5a")
 	)
 	(embedded_fonts no)
-	(model "/Users/nik/repos/github.com/MayNiklas/minimal-co2-pcb/sensorstick/CustomLibrary.3dshapes/USB-A-SMD_4P-L12.0-W18.8-H4.5-LS12.8.wrl"
+	(model "${KIPRJMOD}/CustomLibrary.pretty/3d-models/USB-A-SMD_4P-L12.0-W18.8-H4.5-LS12.8.wrl"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -0.4 -0.3)
 		)
 		(scale
 			(xyz 1 1 1)

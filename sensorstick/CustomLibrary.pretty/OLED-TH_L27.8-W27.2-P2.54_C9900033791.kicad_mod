@@ -30,7 +30,7 @@
 	(fp_circle (center 11.75 -0.20) (end 13.02 -0.20) (layer F.SilkS) (width 0.25))
 	(fp_circle (center 11.75 23.60) (end 13.02 23.60) (layer F.SilkS) (width 0.25))
 	(fp_circle (center -11.75 23.60) (end -10.48 23.60) (layer F.SilkS) (width 0.25))
-	(model "/Users/nik/repos/github.com/MayNiklas/minimal-co2-pcb/sensorstick/CustomLibrary.3dshapes/OLED-TH_L27.8-W27.2-P2.54_C9900033791.wrl"
+	(model "${KIPRJMOD}/CustomLibrary.pretty/3d-models/OLED-TH_L27.8-W27.2-P2.54_C9900033791.wrl"
 		(offset (xyz 0.000 -11.900 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))
