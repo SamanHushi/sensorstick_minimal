@@ -293,4 +293,15 @@
 			(xyz -0 -180 -0)
 		)
 	)
+	(model "${KIPRJMOD}/CustomLibrary.pretty/3d-models/scd40-module.step"
+		(offset
+			(xyz 8.75 -3.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
 )
