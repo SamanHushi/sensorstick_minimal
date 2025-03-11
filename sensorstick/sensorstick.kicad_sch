@@ -1489,6 +1489,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 46.99) (xy 154.94 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5010d375-55e8-42c5-a609-37ff0a924678")
+	)
+	(wire
+		(pts
 			(xy 144.78 36.83) (xy 142.24 41.91)
 		)
 		(stroke
@@ -1506,6 +1516,148 @@
 			(type default)
 		)
 		(uuid "9a61f411-a29e-44f3-b39d-b8272907a2f0")
+	)
+	(wire
+		(pts
+			(xy 154.94 49.53) (xy 142.24 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c106c245-d928-4e80-b09d-4264576e942c")
+	)
+	(global_label "i2c_sda"
+		(shape input)
+		(at 154.94 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "602f5058-cc49-4785-a79a-8b781805aa59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.1218 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c_sda"
+		(shape output)
+		(at 45.72 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "825dc5cb-750b-4def-bc45-8242879b83f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.5382 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c_scl"
+		(shape output)
+		(at 45.72 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e0356b9-4e56-410d-833a-8be263b0d68d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.0824 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c_sda"
+		(shape input)
+		(at 123.19 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8fb1046-c14c-46b3-b1d8-81beea3f7a2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.3718 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c_scl"
+		(shape input)
+		(at 123.19 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da78d3c9-3639-4362-a16e-5a4c4aa9e042")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.8276 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "i2c_scl"
+		(shape input)
+		(at 154.94 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de7ffb9e-4cf2-4399-8bbd-ea6e291408cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.5776 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2140,10 +2292,10 @@
 		(lib_id "Device:Battery_Cell")
 		(at 27.94 34.29 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aa662e56-8d4e-4937-92c4-1ddb154e6aff")
 		(property "Reference" "BT1"
