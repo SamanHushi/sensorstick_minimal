@@ -1669,7 +1669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03ff5f54-4143-454c-9469-2a0e324830f6")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 77.47 40.64 0)
 			(effects
 				(font
@@ -1720,7 +1720,7 @@
 		(instances
 			(project ""
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -1735,7 +1735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a32ae21-6eb9-4fd6-b933-474a70d50aba")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 25.4 55.88 0)
 			(effects
 				(font
@@ -1785,7 +1785,7 @@
 		(instances
 			(project ""
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -1801,7 +1801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21687c33-5111-4095-a860-d96f667fb4c2")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 77.47 43.18 0)
 			(effects
 				(font
@@ -1852,7 +1852,7 @@
 		(instances
 			(project ""
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -1868,7 +1868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f9556c4-418a-4ee7-9bc1-cefe68e0dc4e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 27.94 43.18 0)
 			(effects
 				(font
@@ -1918,7 +1918,7 @@
 		(instances
 			(project ""
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -1934,7 +1934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73a1f6ff-cfd6-4352-93f1-75435dcbefe9")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 33.02 66.04 0)
 			(effects
 				(font
@@ -1984,7 +1984,7 @@
 		(instances
 			(project ""
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -2041,126 +2041,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Espressif Systems"
-			(at 63.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.2mm"
-			(at 63.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 63.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 63.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-C3%20SuperMini_TH/Espressif+Systems/view-part/?ref=eda"
-			(at 63.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 63.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 63.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-C3%20SuperMini_TH/Espressif+Systems/view-part/?ref=snap"
-			(at 63.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ESP32-C3 SuperMini_TH"
-			(at 63.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\nSuper tiny ESP32-C3 board\n"
-			(at 63.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 63.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Espressif"
-			(at 63.5 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -2231,7 +2111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9c2ddad-988a-4f5b-a3f0-6df95ffe25a5")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 129.54 77.47 0)
 			(effects
 				(font
@@ -2282,7 +2162,7 @@
 		(instances
 			(project ""
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -2368,7 +2248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afdef9ad-f07f-4c69-b45a-46c79624fa1b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 87.63 68.58 0)
 			(effects
 				(font
@@ -2419,7 +2299,7 @@
 		(instances
 			(project ""
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -2435,7 +2315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be7032ba-6b41-42dc-8c4f-802610752574")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 119.38 74.93 0)
 			(effects
 				(font
@@ -2486,7 +2366,7 @@
 		(instances
 			(project ""
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -2502,7 +2382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bff23cb9-e30a-4ce4-bbeb-9357b3f9db17")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 157.48 36.83 0)
 			(effects
 				(font
@@ -2553,7 +2433,7 @@
 		(instances
 			(project ""
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -2688,15 +2568,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C319178"
-			(at 27.94 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "5"
 			(uuid "3417afce-d6a0-4ef2-8a32-b80b716c5f74")
 		)
@@ -2734,7 +2605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d71d7fdb-7a5f-4db6-b302-94d922f54d7a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 27.94 33.02 0)
 			(effects
 				(font
@@ -2784,7 +2655,7 @@
 		(instances
 			(project ""
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -2800,7 +2671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebd7fda4-47a9-441f-934f-588bb4484be8")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR9"
 			(at 158.75 44.45 0)
 			(effects
 				(font
@@ -2851,7 +2722,7 @@
 		(instances
 			(project ""
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -2903,15 +2774,6 @@
 		)
 		(property "Description" ""
 			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5248081"
-			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
