@@ -2,7 +2,7 @@
 
 ## Build of Materials (BOM)
 
-Interactive BOM: https://mayniklas.github.io/minimal-co2-pcb/
+Interactive BOM: https://mayniklas.github.io/sensorstick/
 
 - [ ] 1x [ESP32-C3 SuperMini](https://www.aliexpress.com/item/1005006599448997.html)
 - [ ] 1x [USB A plug](https://www.lcsc.com/product-detail/usb-connectors_xkb-connection-u217-041n-4bv81_C319178.html/?href=jlc-SMT%2F%3Fhref%3Djlc-SMT)

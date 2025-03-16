@@ -2256,7 +2256,7 @@
 		(uuid "2dc5f386-f4be-4f42-9808-86d6b52198a3")
 	)
 	(gr_text "${TITLE} by ${COMPANY} (rev. ${REVISION})\n${COMMENT1}"
-		(at 90.6 91.4 0)
+		(at 90.6 91.8 0)
 		(layer "F.SilkS")
 		(uuid "8b0bd605-404f-46ca-b068-d2cd0ea7219f")
 		(effects
