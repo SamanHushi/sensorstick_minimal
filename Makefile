@@ -23,4 +23,4 @@ ensure_docs:
 	mkdir -p docs
 
 docs: ensure_docs
-	docker run -v $(PWD):/mnt --rm interactive_bom:latest
+	docker run -v $(PWD):/mnt -e PCB_PATH=sensorstick/sensorstick.kicad_pcb --rm interactive_bom:latest

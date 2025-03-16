@@ -13,4 +13,6 @@ RUN pip install \
 
 RUN git clone https://github.com/openscopeproject/InteractiveHtmlBom.git
 
-CMD PYTHONPATH=/usr/lib/python3/dist-packages/ xvfb-run python3 /InteractiveHtmlBom/InteractiveHtmlBom/generate_interactive_bom.py /mnt/sensorstick/sensorstick.kicad_pcb --dark-mode --dest-dir ../docs/ --name-format index --highlight-pin1 selected --no-compression --no-browser --include-tracks --include-nets --show-fields Value,Footprint,Description,LCSC --group-fields Value,Footprint,Description,LCSC
+ENV PCB_PATH=sensorstick/sensorstick.kicad_pcb
+
+CMD PYTHONPATH=/usr/lib/python3/dist-packages/ xvfb-run python3 /InteractiveHtmlBom/InteractiveHtmlBom/generate_interactive_bom.py /mnt/${PCB_PATH} --extra-data-file /mnt/${PCB_PATH} --dark-mode --dest-dir ../docs/ --name-format index --highlight-pin1 selected --no-compression --no-browser --include-tracks --include-nets --extra-fields Description,LCSC
