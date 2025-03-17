@@ -178,7 +178,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CustomLibrary:ESP32-C3_SUPERMINI_*"
+			(property "ki_fp_filters" "ESP32-C3_SUPERMINI_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1943,7 +1943,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C"
 			(at 154.94 41.9099 0)
 			(effects
 				(font
@@ -2070,7 +2070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3adaa0e9-6cc9-4f51-9c29-645cce1d7ca9")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 46.99 72.39 0)
 			(effects
 				(font
@@ -2120,7 +2120,7 @@
 		(instances
 			(project "sensorstick"
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -2143,7 +2143,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C"
 			(at 135.89 78.74 90)
 			(effects
 				(font
@@ -2642,7 +2642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "C"
 			(at 90.17 55.8799 0)
 			(effects
 				(font
@@ -2835,7 +2835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5d3bdf7-0343-4654-8c79-533677ca3bdc")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 11.43 72.39 0)
 			(effects
 				(font
@@ -2885,7 +2885,7 @@
 		(instances
 			(project "sensorstick"
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)

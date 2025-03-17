@@ -175,7 +175,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "CustomLibrary:ESP32-C3_SUPERMINI_*"
+		(property "ki_fp_filters" "ESP32-C3_SUPERMINI_*"
 			(at 0 0 0)
 			(effects
 				(font
