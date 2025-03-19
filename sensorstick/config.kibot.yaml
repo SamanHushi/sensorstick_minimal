@@ -52,4 +52,5 @@ outputs:
       no_compression: true
       include_nets: true
       include_tracks: true
+      extra_data_file: "%F.kicad_pcb"
       extra_fields: Description,LCSC
