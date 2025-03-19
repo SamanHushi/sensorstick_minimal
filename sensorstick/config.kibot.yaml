@@ -1,19 +1,5 @@
-# This is a working example.
-# For a more complete reference use `--example`
 kibot:
   version: 1
-
-global:
-  filters:
-    - number: 1007
-    - number: 1015
-    - number: 58
-    - number: 107
-
-import:
-  - file: JLCPCB
-    definitions:
-      _KIBOT_MANF_DIR: Manufacturers/JLCPCB
 
 preflight:
   drc:
@@ -30,11 +16,11 @@ outputs:
     dir: Assembly
     options:
       # https://kibot.readthedocs.io/en/master/configuration/outputs/IBoMOptions.html
-      name_format: index
+      output: "index.%x"
+      extra_data_file: "%F.kicad_pcb"
+      extra_fields: Description,LCSC
       dark_mode: true
       highlight_pin1: selected
       no_compression: true
       include_nets: true
       include_tracks: true
-      extra_data_file: "%F.kicad_pcb"
-      extra_fields: Description,LCSC
