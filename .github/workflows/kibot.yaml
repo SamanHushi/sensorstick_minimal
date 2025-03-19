@@ -1,0 +1,32 @@
+name: kibot
+
+on:
+  push:
+    paths:
+    - '.github/workflows/kibot.yaml'
+    - '**.kicad_pcb'
+    - '**.sch'
+    - 'sensorstick/config.kibot.yaml'
+
+  pull_request:
+    paths:
+      - '**.sch'
+      - '**.kicad_pcb'
+
+jobs:
+  example:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: INTI-CMNB/KiBot@v2_k9
+      with:
+        # Required - kibot config file
+        config: sensorstick/config.kibot.yaml
+        # optional - prefix to output defined in config
+        dir: output
+    - name: upload results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v4
+      with:
+        name: output
+        path: output
