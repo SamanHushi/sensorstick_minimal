@@ -1,13 +1,13 @@
 kibot:
   version: 1
 
-# preflight:
-#   drc:
-#     dont_stop: true
-#     format: HTML,RPT,JSON,CSV
-#   erc:
-#     dont_stop: true
-#     format: HTML,RPT,JSON,CSV
+preflight:
+  drc:
+    dont_stop: true
+    format: HTML,RPT,JSON,CSV
+  erc:
+    dont_stop: true
+    format: HTML,RPT,JSON,CSV
 
 outputs:
   - name: basic_ibom
@@ -17,7 +17,7 @@ outputs:
     options:
       # https://kibot.readthedocs.io/en/master/configuration/outputs/IBoMOptions.html
       output: "index.%x"
-      extra_data_file: sensorstick/sensorstick.kicad_pcb
+      extra_data_file: "%F.kicad_pcb"
       extra_fields: Description,LCSC
       dark_mode: true
       highlight_pin1: selected
