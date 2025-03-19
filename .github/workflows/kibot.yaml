@@ -24,6 +24,9 @@ jobs:
         config: sensorstick/config.kibot.yaml
         # optional - prefix to output defined in config
         dir: output
+        schema: 'sensorstick/sensorstick.kicad_sch'
+        # optional - PCB design file
+        board: 'sensorstick/sensorstick.kicad_pcb'
     - name: upload results
       if: ${{ always() }}
       uses: actions/upload-artifact@v4
