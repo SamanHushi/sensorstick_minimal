@@ -17,7 +17,7 @@ outputs:
     options:
       # https://kibot.readthedocs.io/en/master/configuration/outputs/IBoMOptions.html
       output: "index.%x"
-      extra_data_file: "%p.kicad_pcb"
+      extra_data_file: sensorstick/sensorstick.kicad_pcb
       extra_fields: Description,LCSC
       dark_mode: true
       highlight_pin1: selected
