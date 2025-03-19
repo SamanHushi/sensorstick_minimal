@@ -1,13 +1,13 @@
 kibot:
   version: 1
 
-# preflight:
-#   drc:
-#     dont_stop: true
-#     format: HTML,RPT,JSON,CSV
-#   erc:
-#     dont_stop: true
-#     format: HTML,RPT,JSON,CSV
+preflight:
+  drc:
+    dont_stop: true
+    format: HTML,RPT,JSON,CSV
+  erc:
+    dont_stop: true
+    format: HTML,RPT,JSON,CSV
 
 outputs:
   - name: basic_ibom

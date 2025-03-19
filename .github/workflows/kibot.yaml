@@ -39,6 +39,11 @@ jobs:
         name: output
         path: output
 
+    - name: Upload artifact (GitHub pages)
+      uses: actions/upload-pages-artifact@v3
+      with:
+          path: output/Assembly
+
   # Deployment job
   deploy:
     environment:
