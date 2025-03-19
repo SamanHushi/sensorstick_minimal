@@ -424,6 +424,15 @@ outputs:
   comment: Interactive HTML BoM
   type: ibom
   dir: Assembly
+  options:
+    # https://kibot.readthedocs.io/en/master/configuration/outputs/IBoMOptions.html
+    name_format: index
+    dark_mode: true
+    highlight_pin1: selected
+    no_compression: true
+    include_nets: true
+    include_tracks: true
+    extra_fields: Description,LCSC
 - name: basic_info
   comment: Information about the run
   type: info
