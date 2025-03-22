@@ -1,12 +1,11 @@
 project_path = sensorstick/sensorstick.kicad_pro
 pcb_path = sensorstick/sensorstick.kicad_pcb
+kibot_path = sensorstick/config.kibot.yaml
 
 kicad_path := $(shell which kicad)
 ifeq ($(kicad_path),)
     kicad_path = /Applications/KiCad/KiCad.app/Contents/MacOS/kicad
 endif
-
-.PHONY: docs
 
 help:
 	@echo "Use the following commands:"
@@ -19,8 +18,5 @@ edit:
 build_container:
 	docker build -t interactive_bom:latest .
 
-ensure_docs:
-	mkdir -p docs
-
-docs: ensure_docs
-	docker run -v $(PWD):/mnt -e PCB_PATH=sensorstick/sensorstick.kicad_pcb --rm interactive_bom:latest
+kibot:
+	./docker_kibot_linux_allow.sh "kibot -c $(kibot_path) -b $(pcb_path) -d ./generated"
