@@ -9,6 +9,12 @@ preflight:
     dont_stop: true
     format: HTML,RPT,JSON,CSV
 
+globals:
+  field_lcsc_part: LCSC
+
+import:
+  - file: JLCPCB
+
 outputs:
   - name: basic_ibom
     comment: Interactive HTML BoM
