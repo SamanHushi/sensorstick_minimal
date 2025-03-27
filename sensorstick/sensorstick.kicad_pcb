@@ -1327,7 +1327,7 @@
 		(uuid "b991a7eb-efb4-45d6-9e1e-5728b8fbc896")
 		(at 91.9 99.59)
 		(property "Reference" "OLED1"
-			(at 0.85 -6.84 0)
+			(at 16.1 -4.69 0)
 			(layer "F.SilkS")
 			(uuid "42c2b27d-4ab8-469f-8f3d-0fac5f692d67")
 			(effects
