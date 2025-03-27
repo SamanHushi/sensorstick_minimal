@@ -164,7 +164,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "SCD40 CO2 module"
 			(at 11.75 4 270)
 			(layer "F.SilkS")
 			(uuid "64038de9-d9b6-411c-b3cb-0a569b6edf4c")
@@ -1157,11 +1157,24 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e830eca-784a-45c3-a3c1-6a662902a585")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "LCSC" "C5248081"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d2463d7a-d9e2-42cc-a883-b5bb72413cc5")
+			(uuid "f19804d8-dd37-42a6-a3f7-9f9186e65825")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2043,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C319178"
+		(property "LCSC Part" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
