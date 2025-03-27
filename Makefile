@@ -10,13 +10,10 @@ endif
 help:
 	@echo "Use the following commands:"
 	@echo "  make edit - Open the project in KiCad"
-	@echo "  make docs - Generate the interactive html BOM"
+	@echo "  make kibot - Run KiBot"
 
 edit:
 	$(kicad_path) $(project_path) &
-
-build_container:
-	docker build -t interactive_bom:latest .
 
 kibot:
 	./docker_kibot_linux_allow.sh "kibot -c $(kibot_path) -b $(pcb_path) -d ./generated"
