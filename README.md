@@ -1,7 +1,14 @@
 # minimal-co2-pcb
 
-> [!CAUTION]
-> This board has not been physically tested yet, as I'm waiting for the PCBs to arrive.
+> [!NOTE]
+> This board has been physically tested.
+
+## Todo
+
+- [ ] Correct SCD40 module footprint (dimensions do not fit - does not affect it's function)
+- [ ] Better solultion for mounting THT components (spacers vs. SMD header)
+- [ ] Integrate into case
+
 
 ## Build of Materials (BOM)
 
