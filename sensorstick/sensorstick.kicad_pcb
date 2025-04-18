@@ -115,7 +115,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -1385,6 +1384,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5248081"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c118948-9788-47ea-b315-3514db3421f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f08bf96e-1e83-4183-bc65-c7f1ae7d4bfb")
 		(sheetname "/")
 		(sheetfile "sensorstick.kicad_sch")
@@ -2280,6 +2292,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5b80ed8b-6ced-4a8d-b649-5e2e2f0fde0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C319178"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e02a0fc8-35bf-4c79-9faa-634b61388fae")
 			(effects
 				(font
 					(size 1 1)
