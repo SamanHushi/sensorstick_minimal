@@ -492,278 +492,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CustomSymbols:GY-SGP30_VOC_module"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -1.27 0 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GY-SGP30"
-				(at 8.89 -12.7 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "CustomLibrary:GY-SGP30_VOC_module"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GY-SGP30_VOC_module_1_1"
-				(rectangle
-					(start -6.35 -1.27)
-					(end 5.08 -11.43)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -2.54 1.27 270)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -13.97 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -6.35 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CustomSymbols:SCD40_CO2_module"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -1.27 0 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SCD40 CO2 module"
-				(at 8.89 -12.7 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "CustomLibrary:SCD40_CO2_module"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SCD40_CO2_module_1_1"
-				(rectangle
-					(start -6.35 -1.27)
-					(end 5.08 -11.43)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -2.54 1.27 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -13.97 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -6.35 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CustomSymbols:USB_A"
 			(pin_names
 				(offset 1.016)
@@ -1245,6 +973,782 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SGP30:SGP30"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SGP30"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SGP30:SGP30"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Sensirion AG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "SGP30, SHTC1 Air Quality, Humidity, Temperature Sensor Arduino Platform Evaluation Expansion Board"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/SGP30/Sensirion/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/SGP30/Sensirion/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "IC-14776"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "SGP30"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SGP30_0_0"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VDDH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "DIEPAD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "DIEPAD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sensor_Gas:SCD40-D-R2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SCD40-D-R2"
+				(at 6.985 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Sensor:Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Photoacoustic CO2 sensor, 40 000 ppm, I2C, 2.4-5.5 V, Base accuracy  400 - 2000 ppm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CO2 sensor I2C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Sensirion*SCD4?*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SCD40-D-R2_0_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SCD40-D-R2_1_1"
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(hide yes)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sensor_Humidity:SHT4x"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SHT4x"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
+				(at 3.81 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
+				(at 3.81 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Sensirion environment environmental measurement digital SHT40 SHT41 SHT45"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Sensirion?DFN*1.5x1.5mm*P0.8mm*SHT4x*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SHT4x_1_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1846,6 +2350,18 @@
 		)
 	)
 	(rectangle
+		(start 186.182 29.21)
+		(end 254.762 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 52feae51-560f-475a-bf67-40085e9b82ea)
+	)
+	(rectangle
 		(start 110.49 29.21)
 		(end 179.07 77.47)
 		(stroke
@@ -1882,8 +2398,8 @@
 		(uuid ecaf5de8-cd0f-40ab-bdc5-f30b28dc94e2)
 	)
 	(rectangle
-		(start 110.49 88.9)
-		(end 179.07 127)
+		(start 107.95 88.9)
+		(end 176.53 132.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -1923,6 +2439,16 @@
 		)
 		(uuid "8731804a-af58-44bf-9149-8409e6208336")
 	)
+	(text "SHT4X"
+		(exclude_from_sim no)
+		(at 195.58 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "95e32590-737c-4926-a137-dce7409284c5")
+	)
 	(text "USB (3A)"
 		(exclude_from_sim no)
 		(at 34.036 87.376 0)
@@ -1946,10 +2472,28 @@
 		(uuid "09b75c96-bfcf-46cc-88af-81aff7d708f7")
 	)
 	(junction
-		(at 133.35 58.42)
+		(at 219.71 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b326f52-df1e-4b36-a6e1-22b501362644")
+	)
+	(junction
+		(at 133.35 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d49ef95-aabe-4561-b270-e312ae362db3")
+	)
+	(junction
+		(at 160.02 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13addd6c-69e6-44e4-ba6f-06bda0d88ec8")
+	)
+	(junction
+		(at 127 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c958829-5159-41d5-a823-92b0c19b84bc")
 	)
 	(junction
 		(at 67.31 100.33)
@@ -1964,28 +2508,100 @@
 		(uuid "2bb3cc2d-9165-4413-9821-fb1957482d27")
 	)
 	(junction
-		(at 133.35 40.64)
+		(at 127 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c03dab5-dc9d-40b2-b3f1-8d32e41a7264")
+		(uuid "3130fb92-6c24-4af7-832d-aa0674094f1c")
 	)
 	(junction
-		(at 127 116.84)
+		(at 229.87 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d907609c-fbaa-418b-917b-c2bb365f26a3")
+		(uuid "3667e56f-d17d-4559-a50e-9f5c41982507")
 	)
 	(junction
-		(at 127 101.6)
+		(at 144.78 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dcce756f-9565-4920-82da-4d929ee11a7f")
+		(uuid "4d4bdd62-380a-45c6-b75a-6a07038977f4")
+	)
+	(junction
+		(at 127 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "815ede52-f06e-4e8f-a8c8-39194f52e10f")
+	)
+	(junction
+		(at 151.13 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b55779c-f036-41e4-8abc-9a47ac7ea848")
+	)
+	(junction
+		(at 219.71 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf7a0f6-ebfb-4bb5-b661-64289969d264")
+	)
+	(junction
+		(at 127 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f21f736-5ad4-4a71-8de1-b1bd6c1163c7")
+	)
+	(junction
+		(at 208.28 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9481ea1b-98ef-49a5-8d1f-774daa6bd0f5")
+	)
+	(junction
+		(at 151.13 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbd306df-459b-4184-8b8f-601367b9df66")
+	)
+	(junction
+		(at 133.35 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8688f2c-cb6b-404d-95b0-56de4fd6c9ef")
+	)
+	(junction
+		(at 127 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8d3cc8b-674b-4def-aacf-affba0d30ae9")
+	)
+	(junction
+		(at 144.78 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbf90fd3-5783-4531-bc31-5a763119b156")
+	)
+	(junction
+		(at 229.87 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc93a431-8238-4a2f-8d25-782967d35144")
+	)
+	(junction
+		(at 208.28 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbb5c6e7-294a-4755-a2a9-ade2142df6dc")
 	)
 	(junction
 		(at 48.26 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e22d9f87-4ec9-4e7f-8cda-5fb0caf1158d")
+	)
+	(junction
+		(at 153.67 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3d8710d-c1ae-4fad-89fa-2451fafe67f9")
 	)
 	(no_connect
 		(at 81.28 53.34)
@@ -2041,7 +2657,27 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 101.6) (xy 114.3 106.68)
+			(xy 127 99.06) (xy 151.13 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d965b2-8aa1-4174-89d7-ff98df2bbe50")
+	)
+	(wire
+		(pts
+			(xy 193.04 49.53) (xy 193.04 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061f0364-400b-4e0e-b4ed-cba2f4e046da")
+	)
+	(wire
+		(pts
+			(xy 114.3 99.06) (xy 114.3 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2061,6 +2697,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 43.18) (xy 133.35 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135754f9-ce61-43de-a0cf-9d5b9fc0bff2")
+	)
+	(wire
+		(pts
 			(xy 81.28 68.58) (xy 86.36 68.58)
 		)
 		(stroke
@@ -2068,6 +2714,16 @@
 			(type default)
 		)
 		(uuid "1e9a8f89-4c88-47a2-aee6-8acb0b666e67")
+	)
+	(wire
+		(pts
+			(xy 218.44 50.8) (xy 229.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26592106-d212-456e-aa31-076bd4db0937")
 	)
 	(wire
 		(pts
@@ -2081,13 +2737,43 @@
 	)
 	(wire
 		(pts
-			(xy 127 100.33) (xy 127 101.6)
+			(xy 149.86 111.76) (xy 160.02 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "284325be-f634-4063-b356-7bddb752ed06")
+		(uuid "2b0524d7-8170-4cac-86d3-62ebff94004b")
+	)
+	(wire
+		(pts
+			(xy 229.87 55.88) (xy 238.76 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8e3703-df3d-4268-a65f-3f937f7c9160")
+	)
+	(wire
+		(pts
+			(xy 143.51 50.8) (xy 144.78 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee11cfa-e2f4-4bf0-b07b-017509c9a53b")
+	)
+	(wire
+		(pts
+			(xy 193.04 57.15) (xy 193.04 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32645dee-5d2e-405e-85e9-b7dc7abcfca0")
 	)
 	(wire
 		(pts
@@ -2098,6 +2784,36 @@
 			(type default)
 		)
 		(uuid "38c2dd91-a135-4a05-8295-ceeb012c4999")
+	)
+	(wire
+		(pts
+			(xy 208.28 60.96) (xy 208.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e94c90a-4141-45ce-879b-c4691affaa0f")
+	)
+	(wire
+		(pts
+			(xy 151.13 106.68) (xy 167.64 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef37ea6-e017-4cc0-be73-175c7d81fe62")
+	)
+	(wire
+		(pts
+			(xy 133.35 43.18) (xy 133.35 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40847459-4f51-4e3b-9a84-be9aa7d0c032")
 	)
 	(wire
 		(pts
@@ -2141,13 +2857,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 45.72) (xy 156.21 45.72)
+			(xy 219.71 55.88) (xy 229.87 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5010d375-55e8-42c5-a609-37ff0a924678")
+		(uuid "5111fb69-e259-4cc6-b6e8-53a01f32fb9b")
 	)
 	(wire
 		(pts
@@ -2161,7 +2877,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 101.6) (xy 127 101.6)
+			(xy 229.87 50.8) (xy 238.76 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa731f4-5d9b-4510-97b2-ca892ef571dc")
+	)
+	(wire
+		(pts
+			(xy 114.3 99.06) (xy 127 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2171,7 +2897,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 54.61) (xy 118.11 58.42)
+			(xy 115.57 58.42) (xy 115.57 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2181,7 +2907,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 39.37) (xy 133.35 40.64)
+			(xy 133.35 41.91) (xy 133.35 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2191,7 +2917,57 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 40.64) (xy 118.11 40.64)
+			(xy 129.54 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa77a9f-efe9-481c-b6ab-08763093959d")
+	)
+	(wire
+		(pts
+			(xy 218.44 55.88) (xy 219.71 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62cb6cac-a4ea-4a7b-86c8-84af4ea1033a")
+	)
+	(wire
+		(pts
+			(xy 160.02 104.14) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ce2f6e-7611-4532-bbf0-cfaaf7d41efc")
+	)
+	(wire
+		(pts
+			(xy 127 109.22) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679e2cfb-c490-48ba-b0f7-cd087ce79bfd")
+	)
+	(wire
+		(pts
+			(xy 208.28 45.72) (xy 208.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6863547a-4331-4072-873c-f0a90db2a6fc")
+	)
+	(wire
+		(pts
+			(xy 133.35 43.18) (xy 115.57 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2201,13 +2977,53 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 40.64) (xy 133.35 41.91)
+			(xy 127 111.76) (xy 127 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6dea0f35-4253-48e8-9892-bac0a2302e9f")
+		(uuid "70aec973-b18e-4c7e-ba1e-023481ab5bf7")
+	)
+	(wire
+		(pts
+			(xy 193.04 63.5) (xy 208.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71fdc33d-22be-4862-8836-5f8794adc2de")
+	)
+	(wire
+		(pts
+			(xy 129.54 109.22) (xy 127 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746c9256-834e-48cf-a516-482642a4fa87")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 129.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75564a04-5b35-41e2-bec5-12e00164e0c0")
+	)
+	(wire
+		(pts
+			(xy 153.67 45.72) (xy 153.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763d642e-ec4e-4f3d-9525-879e1010f7ab")
 	)
 	(wire
 		(pts
@@ -2221,6 +3037,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 106.68) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8596050b-c1e1-4b4c-bf38-ffc0cd874280")
+	)
+	(wire
+		(pts
 			(xy 44.45 48.26) (xy 45.72 48.26)
 		)
 		(stroke
@@ -2228,6 +3054,16 @@
 			(type default)
 		)
 		(uuid "874c43b2-bcd8-42d7-b001-5316ce2d2cce")
+	)
+	(wire
+		(pts
+			(xy 208.28 63.5) (xy 219.71 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c3b01f-a071-4188-a37c-b422ab589052")
 	)
 	(wire
 		(pts
@@ -2241,7 +3077,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 58.42) (xy 133.35 59.69)
+			(xy 127 99.06) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5a01cc-5641-4c68-925d-1f60d36c7a44")
+	)
+	(wire
+		(pts
+			(xy 133.35 62.23) (xy 133.35 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2251,7 +3097,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 40.64) (xy 118.11 46.99)
+			(xy 127 114.3) (xy 127 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a39147-f396-43e8-9ffe-16418ebf2208")
+	)
+	(wire
+		(pts
+			(xy 115.57 43.18) (xy 115.57 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2261,7 +3117,47 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 116.84) (xy 127 116.84)
+			(xy 127 93.98) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ddb3c6-da27-4f93-86a4-c7e6cd16aa07")
+	)
+	(wire
+		(pts
+			(xy 143.51 53.34) (xy 153.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3801b60-dd7f-4df0-ae6d-8e0790a6aa6e")
+	)
+	(wire
+		(pts
+			(xy 144.78 43.18) (xy 153.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66506ca-3749-4848-8405-3cff999bd074")
+	)
+	(wire
+		(pts
+			(xy 151.13 99.06) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d3691d-57cb-434a-819a-eea2520502a8")
+	)
+	(wire
+		(pts
+			(xy 114.3 118.11) (xy 127 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2271,23 +3167,33 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 105.41) (xy 139.7 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b17bb6d3-bf66-4388-97e6-153526f0ba50")
-	)
-	(wire
-		(pts
-			(xy 114.3 114.3) (xy 114.3 116.84)
+			(xy 114.3 114.3) (xy 114.3 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2f2c38b-27d8-49f2-ad2c-05ebe97db1db")
+	)
+	(wire
+		(pts
+			(xy 208.28 44.45) (xy 208.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6771932-3fce-4b50-9db9-0bf2854f19db")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 129.54 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce3612d-e742-47e5-ad3e-de3cecc99fd5")
 	)
 	(wire
 		(pts
@@ -2301,16 +3207,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 49.53) (xy 143.51 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c106c245-d928-4e80-b09d-4264576e942c")
-	)
-	(wire
-		(pts
 			(xy 86.36 68.58) (xy 86.36 69.85)
 		)
 		(stroke
@@ -2318,6 +3214,26 @@
 			(type default)
 		)
 		(uuid "c5202581-de8d-47c5-9104-b23552d4a7fb")
+	)
+	(wire
+		(pts
+			(xy 127 118.11) (xy 127 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d33171-46d6-4064-b63b-d737aa714ee5")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce0f7a1-9ad1-4d42-8777-a8a22114b356")
 	)
 	(wire
 		(pts
@@ -2331,6 +3247,56 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 106.68) (xy 151.13 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3c73dc-9509-4bc4-acc9-69277c81befc")
+	)
+	(wire
+		(pts
+			(xy 229.87 63.5) (xy 219.71 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d440ba1b-60b2-4099-8b1d-767527aef84e")
+	)
+	(wire
+		(pts
+			(xy 229.87 55.88) (xy 229.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e10c87-cc23-4c0a-8205-559fa8795678")
+	)
+	(wire
+		(pts
+			(xy 208.28 63.5) (xy 208.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ecbfca-6f94-4ba6-8bf5-e7d89ff53103")
+	)
+	(wire
+		(pts
+			(xy 144.78 50.8) (xy 163.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d988eccb-13fc-4297-a06f-fad7eaa8a807")
+	)
+	(wire
+		(pts
 			(xy 250.19 140.97) (xy 243.84 140.97)
 		)
 		(stroke
@@ -2338,6 +3304,16 @@
 			(type default)
 		)
 		(uuid "df20ff61-2eb0-4bb0-8d3c-0713e8dd7c03")
+	)
+	(wire
+		(pts
+			(xy 160.02 111.76) (xy 167.64 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01dc0a9-4b61-4772-9ace-78b6efee2f88")
 	)
 	(wire
 		(pts
@@ -2351,17 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 109.22) (xy 139.7 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2e884e2-0881-401b-9032-d7b0503cff20")
-	)
-	(wire
-		(pts
-			(xy 118.11 58.42) (xy 133.35 58.42)
+			(xy 115.57 62.23) (xy 133.35 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2371,7 +3337,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 57.15) (xy 133.35 58.42)
+			(xy 133.35 60.96) (xy 133.35 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2391,13 +3357,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 118.11) (xy 127 116.84)
+			(xy 193.04 44.45) (xy 208.28 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8a88c5b-7814-4001-80d9-bbbcf9217081")
+		(uuid "fb0375ba-b522-4d2b-ab12-61c5e874cb17")
+	)
+	(wire
+		(pts
+			(xy 153.67 53.34) (xy 163.83 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc35844b-e887-45b2-aa18-5bc1bf514e78")
 	)
 	(wire
 		(pts
@@ -2410,27 +3386,47 @@
 		(uuid "ff33b4cd-0727-4682-a6d3-4c8c2deaff20")
 	)
 	(label "IC2_SDA"
-		(at 139.7 109.22 0)
+		(at 167.64 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6f751f3b-7b6e-4153-a606-680f56283cc6")
+		(uuid "605c3611-fd72-435d-9f5d-3f1cbf7240d7")
 	)
 	(label "I2C_SCL"
-		(at 139.7 105.41 0)
+		(at 238.76 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a647bf12-ce84-493a-9a70-fb16b2027c0a")
+		(uuid "7d075e73-25be-4e6e-8c6d-0487ffcb9100")
 	)
 	(label "I2C_SCL"
-		(at 156.21 45.72 0)
+		(at 167.64 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a341d85f-2e6d-4f1e-a0e0-b28ede18970c")
+	)
+	(label "IC2_SDA"
+		(at 238.76 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a828578c-e237-48a6-9429-a2a8410bf097")
+	)
+	(label "I2C_SCL"
+		(at 163.83 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2450,7 +3446,7 @@
 		(uuid "c0b6abfb-ed3d-4d61-9787-ba5521b1435f")
 	)
 	(label "IC2_SDA"
-		(at 157.48 49.53 0)
+		(at 163.83 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2536,17 +3532,152 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 118.11 50.8 180)
+		(lib_id "Device:R")
+		(at 219.71 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "06938c8d-cf92-46f2-8af0-33292acf63e9")
+		(property "Reference" "R5"
+			(at 222.25 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 222.25 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 217.932 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25804.pdf"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "672ce62c-4a37-4ffd-8a07-36824fe030d3")
+		)
+		(pin "2"
+			(uuid "007b5083-27b0-45ca-bac3-d08522e65ceb")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 208.28 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17289139-54c1-4323-a8bd-7aa935c922c3")
+		(property "Reference" "#PWR010"
+			(at 208.28 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 208.2801 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1595ea6-76b1-42d4-8132-05eeb72b8098")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 115.57 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "1e8719cb-cef4-4838-8ff2-b6bf6e6b409c")
 		(property "Reference" "C1"
-			(at 121.92 49.5299 0)
+			(at 118.11 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +3686,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 121.92 52.0699 0)
+			(at 118.11 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +3695,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 117.1448 46.99 0)
+			(at 114.6048 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +3704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 50.8 0)
+			(at 115.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,7 +3713,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 118.11 50.8 0)
+			(at 115.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,7 +3722,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 121.92 49.5299 0)
+			(at 119.38 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,6 +3911,145 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 151.13 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30ed9ad5-393a-4347-9b05-a525b27b13c3")
+		(property "Reference" "R3"
+			(at 153.67 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 153.67 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 149.352 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25804.pdf"
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e43145e-d244-4049-b415-a92fcf60d19f")
+		)
+		(pin "2"
+			(uuid "141666b3-c219-473b-8283-298f60eaa824")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "352ac7ef-ea98-4851-95d0-3bf2e6291277")
+		(property "Reference" "R2"
+			(at 155.448 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 155.194 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.892 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25804.pdf"
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2125576c-75d0-45bd-8088-c0986873cdcc")
+		)
+		(pin "2"
+			(uuid "cc98d9eb-994d-4358-80b8-61c096849446")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 114.3 110.49 0)
 		(unit 1)
@@ -2932,81 +4202,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CustomSymbols:GY-SGP30_VOC_module")
-		(at 129.54 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52c36de9-f754-4d5a-b3d7-09922a8a093c")
-		(property "Reference" "U3"
-			(at 128.27 102.87 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GY-SGP30"
-			(at 134.112 115.824 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CustomLibrary:GY-SGP30_VOC_module"
-			(at 129.54 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f4e4f26-7ca3-427f-839f-fe2b5ba428e2")
-		)
-		(pin "4"
-			(uuid "7cb1adb3-7b14-45b2-95b4-743a065d1c03")
-		)
-		(pin "3"
-			(uuid "d4750b9f-88cb-47fd-b394-6a2845d890d4")
-		)
-		(pin "2"
-			(uuid "8470ca18-038d-41e8-aa4e-ce49026afe25")
-		)
-		(instances
-			(project ""
-				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 54.61 119.38 0)
 		(unit 1)
@@ -3066,6 +4261,84 @@
 			(project "sensorstick"
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 193.04 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62697c93-286e-45e4-947b-59f7db40d89d")
+		(property "Reference" "C5"
+			(at 195.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 195.58 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 192.0748 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 193.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 196.85 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4ffaa17-e50c-4659-9d72-dfaa0d72f067")
+		)
+		(pin "2"
+			(uuid "4570f42f-e3ff-4fcd-8204-c111999e8d94")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3436,6 +4709,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 208.28 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8904c1a1-a69e-4c99-b35b-42c0e2a7bf50")
+		(property "Reference" "#PWR011"
+			(at 208.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "891a973d-7685-44c3-a8a1-e4de7cca3d74")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 54.61 118.11 270)
 		(unit 1)
@@ -3497,6 +4835,144 @@
 			(project "sensorstick"
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 229.87 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91321082-5b5b-4961-9943-1544030b2e50")
+		(property "Reference" "R6"
+			(at 231.648 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 231.394 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.092 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25804.pdf"
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6423492b-6129-4639-9388-ce902848d8f4")
+		)
+		(pin "2"
+			(uuid "63f9c24e-48d9-4b8f-a75f-435965ff244f")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91d75638-a08d-4151-aade-9ef59eeafae9")
+		(property "Reference" "R4"
+			(at 161.544 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 161.29 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.242 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25804.pdf"
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b81eca39-bf1d-429c-b695-cdf862bfee6a")
+		)
+		(pin "2"
+			(uuid "02bdd40f-e586-4efa-988a-aa1594e2fb42")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3636,8 +5112,261 @@
 		)
 	)
 	(symbol
+		(lib_id "SGP30:SGP30")
+		(at 139.7 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b752c8a-e7f0-4095-bb5b-096d605a55f1")
+		(property "Reference" "U2"
+			(at 139.446 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SGP30"
+			(at 139.446 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SGP30:SGP30"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Sensirion AG"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SGP30, SHTC1 Air Quality, Humidity, Temperature Sensor Arduino Platform Evaluation Expansion Board"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/SGP30/Sensirion/view-part/?ref=eda"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VALUE" "SGP30"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SGP30/Sensirion/view-part/?ref=snap"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "IC-14776"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "SGP30"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8958f01c-06b2-460e-85de-34aa486c2831")
+		)
+		(pin "1"
+			(uuid "bc2110d4-52b1-4bfb-8e72-ad4803260ccc")
+		)
+		(pin "3"
+			(uuid "1809b7a7-7510-4791-9654-d439952f07eb")
+		)
+		(pin "2"
+			(uuid "5bfc9b2f-d96d-4d88-9af1-640f81bbcc71")
+		)
+		(pin "6"
+			(uuid "0d53114c-5878-475b-9df3-6bb4c2f13335")
+		)
+		(pin "DIEPAD"
+			(uuid "3f880592-135d-4435-a5b9-fdbabc56c4c3")
+		)
+		(pin "4"
+			(uuid "31492127-d814-4ef5-a463-6f8a6372eb4c")
+		)
+		(instances
+			(project ""
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7b482d8-7e7c-4206-9d89-bebb22ba54bf")
+		(property "Reference" "R1"
+			(at 147.32 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 147.32 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 143.002 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25804.pdf"
+			(at 144.78 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "918e9888-0213-41dd-bd5f-253037aed4ca")
+		)
+		(pin "2"
+			(uuid "c8e64f9b-5130-4167-ad7a-b3eb7893de02")
+		)
+		(instances
+			(project ""
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 127 118.11 0)
+		(at 127 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3645,7 +5374,7 @@
 		(dnp no)
 		(uuid "a9c2ddad-988a-4f5b-a3f0-6df95ffe25a5")
 		(property "Reference" "#PWR3"
-			(at 127 124.46 0)
+			(at 127 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +5383,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127.0001 121.92 90)
+			(at 127.0001 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,7 +5392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 118.11 0)
+			(at 127 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,7 +5401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 118.11 0)
+			(at 127 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +5410,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 118.11 0)
+			(at 127 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +5578,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 127 100.33 0)
+		(at 127 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3857,7 +5586,7 @@
 		(dnp no)
 		(uuid "be7032ba-6b41-42dc-8c4f-802610752574")
 		(property "Reference" "#PWR4"
-			(at 127 104.14 0)
+			(at 127 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +5595,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 126.9999 96.52 90)
+			(at 124.968 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +5604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 100.33 0)
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +5613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 100.33 0)
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +5622,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127 100.33 0)
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +5644,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 59.69 0)
+		(at 133.35 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3923,7 +5652,7 @@
 		(dnp no)
 		(uuid "bff23cb9-e30a-4ce4-bbeb-9357b3f9db17")
 		(property "Reference" "#PWR08"
-			(at 133.35 66.04 0)
+			(at 133.35 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +5661,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 63.5 0)
+			(at 133.35 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +5669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 59.69 0)
+			(at 133.35 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +5678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 59.69 0)
+			(at 133.35 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +5687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 59.69 0)
+			(at 133.35 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,81 +5774,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CustomSymbols:SCD40_CO2_module")
-		(at 135.89 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc1a31f7-1f81-413f-ae29-bef76d94fb83")
-		(property "Reference" "U2"
-			(at 137.16 42.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SCD40 CO2 module"
-			(at 144.78 55.88 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CustomLibrary:SCD40_CO2_module"
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfffb190-e2c5-4d5b-b8c1-3ed3ef8578e4")
-		)
-		(pin "2"
-			(uuid "91292105-57ed-48a5-b3d2-f6cd60bf2c45")
-		)
-		(pin "3"
-			(uuid "d75a78d9-d392-4b22-b78c-db020bf82251")
-		)
-		(pin "4"
-			(uuid "54623aac-b393-42f3-bceb-b3252196c79a")
-		)
-		(instances
-			(project ""
-				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 48.26 119.38 0)
 		(unit 1)
@@ -4186,8 +5840,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Gas:SCD40-D-R2")
+		(at 133.35 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd54dcfe-ed91-4c21-8ec2-0796829c47a1")
+		(property "Reference" "U4"
+			(at 128.524 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SCD40-D-R2"
+			(at 131.064 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Sensor:Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://sensirion.com/media/documents/E0F04247/631EF271/CD_DS_SCD40_SCD41_Datasheet_D1.pdf"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photoacoustic CO2 sensor, 40 000 ppm, I2C, 2.4-5.5 V, Base accuracy  400 - 2000 ppm"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "19"
+			(uuid "949dd044-f8fa-4815-a181-062c53c5c13b")
+		)
+		(pin "21"
+			(uuid "353e7502-bd09-43be-8b57-fbb2486b6d3c")
+		)
+		(pin "20"
+			(uuid "dbe3908e-5c21-4e79-92db-191e0ae6e941")
+		)
+		(pin "9"
+			(uuid "5b578755-d441-42b6-82b7-db60b3dca21c")
+		)
+		(pin "7"
+			(uuid "d7fe05ad-6823-4cad-b294-ef311ae68d7a")
+		)
+		(pin "6"
+			(uuid "dcaf3e5f-63b9-4605-92b6-0b2d7ff36ac0")
+		)
+		(pin "10"
+			(uuid "6eb4215c-c6b9-44e8-8123-7f00b014f301")
+		)
+		(instances
+			(project ""
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 133.35 39.37 0)
+		(at 133.35 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4195,7 +5933,7 @@
 		(dnp no)
 		(uuid "ebd7fda4-47a9-441f-934f-588bb4484be8")
 		(property "Reference" "#PWR09"
-			(at 133.35 43.18 0)
+			(at 133.35 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +5942,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 133.3499 35.56 90)
+			(at 133.3499 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +5951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 39.37 0)
+			(at 133.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +5960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 39.37 0)
+			(at 133.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,7 +5969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 133.35 39.37 0)
+			(at 133.35 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,6 +5984,83 @@
 			(project "sensorstick"
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Humidity:SHT4x")
+		(at 210.82 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4d87b62-2812-4fee-a0ff-defeb47ba9a5")
+		(property "Reference" "U3"
+			(at 203.2 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SHT4x"
+			(at 203.708 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sensor_Humidity:Sensirion_DFN-4_1.5x1.5mm_P0.8mm_SHT4x_NoCentralPad"
+			(at 207.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://sensirion.com/media/documents/33FD6951/624C4357/Datasheet_SHT4x.pdf"
+			(at 207.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Humidity and Temperature Sensor, ±1%RH, ±0.1°C, I2C, 1.08-3.6V, 16bit, DFN-4"
+			(at 210.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "124615e7-080b-4f4e-afb9-3d59570d3f22")
+		)
+		(pin "3"
+			(uuid "bcb61133-1435-437d-8ba4-058c57fdbf94")
+		)
+		(pin "2"
+			(uuid "28a3c196-a069-4069-ac8f-60fb6132f8ea")
+		)
+		(pin "1"
+			(uuid "a52ca68e-fa18-4c07-9daa-912632130c13")
+		)
+		(instances
+			(project ""
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "U3")
 					(unit 1)
 				)
 			)
