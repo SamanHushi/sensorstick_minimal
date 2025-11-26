@@ -1,7 +1,7 @@
 (footprint "ESP32-C3_SUPERMINI_SMD"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -5.715 -13.6525 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "69ec694d-f5d2-4a50-be3f-8621485effb3")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -285,115 +273,153 @@
 	(pad "0" smd rect
 		(at 7.985 7.88)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "26af81fe-8678-4aaf-bec7-7320b05b888e")
 	)
 	(pad "1" smd rect
 		(at 7.985 5.34)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "c650dc5b-194c-46a4-aaa4-800a5627fa07")
 	)
 	(pad "2" smd rect
 		(at 7.985 2.8)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "a511dced-6976-4da3-be93-3618aef9fb26")
 	)
 	(pad "3" smd rect
 		(at 7.985 0.26)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "28389880-300f-4335-8d3a-330f48a9886f")
 	)
 	(pad "3.3" smd rect
 		(at 7.985 -4.82)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "67a8e082-d9dd-49f3-8447-2e55273fa2cf")
 	)
 	(pad "4" smd rect
 		(at 7.985 -2.28)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "c02ed45a-1e83-4f97-9445-fb0309b3da02")
 	)
 	(pad "5" smd rect
 		(at -7.985 -9.9)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "df217938-48c3-43b0-bde1-b66c1ad86e8d")
 	)
 	(pad "5V" smd rect
 		(at 7.985 -9.9)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "ee4239a7-6e5d-4cb7-b8a5-6512469a8a7f")
 	)
 	(pad "6" smd rect
 		(at -7.985 -7.36)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "b8f9af9f-ef9c-4167-a372-dd946a8843cd")
 	)
 	(pad "7" smd rect
 		(at -7.985 -4.82)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "55329965-3b42-4da4-91e8-e5aa2acd1089")
 	)
 	(pad "8" smd rect
 		(at -7.985 -2.28)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "89b6b731-218c-48e8-8814-36c9e5ca58b5")
 	)
 	(pad "9" smd rect
 		(at -7.985 0.26)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "d6f60ed0-4b5e-48cf-a00f-eebe367cd8e9")
 	)
 	(pad "10" smd rect
 		(at -7.985 2.8)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "41a7414c-3ccf-4620-9407-5da92e23662a")
 	)
 	(pad "20" smd rect
 		(at -7.985 5.34)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "a145e5ae-fa79-4fac-b368-7568d39b2f9d")
 	)
 	(pad "21" smd rect
 		(at -7.985 7.88)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "28a783e9-87ff-49bb-a4d2-470a10bf9b53")
 	)
 	(pad "G" smd rect
 		(at 7.985 -7.36)
 		(size 3.025 1.524)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "b56b0787-d37e-4433-9816-04705da48f28")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "0a54a415-ff3b-46f6-92de-f95e6e2466d9")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -9 11.35) (xy 9 11.35) (xy 9 9) (xy -9 9)
+			)
+		)
+	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/CustomLibrary.pretty/3d-models/ESP32-C3_SUPERMINI_SMD.step"
 		(offset
 			(xyz 0 0 0)
