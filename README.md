@@ -1,7 +1,7 @@
 # minimal-co2-pcb
 
 > [!NOTE]
-> This board has been physically tested.
+> This board has not been physically tested.
 
 ## Todo
 
