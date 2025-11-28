@@ -5870,6 +5870,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C182013"
+			(at 233.172 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4eaac374-6bf8-4434-96e1-ac5b738d6493")
 		)
@@ -5939,7 +5948,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1591"
 			(at 119.38 53.3399 0)
 			(effects
 				(font
@@ -6114,7 +6123,7 @@
 				)
 			)
 		)
-		(property "Value" "U217-04XN-XXR84"
+		(property "Value" "USB-A Header"
 			(at 54.61 95.25 0)
 			(effects
 				(font
@@ -6279,7 +6288,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2D02WGJ0103TCE"
+		(property "Value" "2x 100k Array"
 			(at 232.41 64.7699 90)
 			(effects
 				(font
@@ -6317,6 +6326,15 @@
 		)
 		(property "LCSC Part" "C2765527"
 			(at 238.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2765527"
+			(at 232.41 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0μF"
+		(property "Value" "470nF"
 			(at 238.76 111.7599 0)
 			(effects
 				(font
@@ -6599,7 +6617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1623.pdf"
 			(at 234.95 110.49 0)
 			(effects
 				(font
@@ -6610,6 +6628,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1623"
+			(at 238.76 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,7 +6713,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1591"
 			(at 196.85 52.0699 0)
 			(effects
 				(font
@@ -7023,6 +7050,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 196.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 200.66 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7594,6 +7630,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C571193"
+			(at 209.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "247e5a46-2914-4e26-9f24-89d8e2c6472d")
 		)
@@ -7837,7 +7882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C232839.pdf"
 			(at 60.96 168.91 0)
 			(effects
 				(font
@@ -7932,6 +7977,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C232839"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8390,7 +8444,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2D02WGJ0103TCE"
+		(property "Value" "2x 100k Array"
 			(at 154.94 45.7199 90)
 			(effects
 				(font
@@ -8428,6 +8482,15 @@
 		)
 		(property "LCSC Part" "C2765527"
 			(at 161.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2765527"
+			(at 154.94 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,6 +8790,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C9900163442"
+			(at 223.52 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3932b2b3-0c14-44c0-955d-5bd04179c9aa")
 		)
@@ -8929,6 +9001,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C407576"
+			(at 223.52 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b7f0978-f8d9-4b65-9523-97164ebfc0a6")
 		)
@@ -8962,7 +9043,7 @@
 				)
 			)
 		)
-		(property "Value" "4D02WGF1002TCE"
+		(property "Value" "4x 100k Array"
 			(at 140.97 151.13 0)
 			(effects
 				(font
@@ -8999,6 +9080,15 @@
 		)
 		(property "LCSC Part" "C414600"
 			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C414600"
+			(at 140.97 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
