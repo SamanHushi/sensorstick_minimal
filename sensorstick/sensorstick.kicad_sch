@@ -5873,7 +5873,7 @@
 		(dnp no)
 		(uuid "119ac8f2-dccf-407d-90de-5c9c8101b140")
 		(property "Reference" "C10"
-			(at 198.882 154.686 90)
+			(at 197.104 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,7 +5882,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 198.882 156.718 90)
+			(at 197.104 156.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6721,7 @@
 				)
 			)
 		)
-		(property "Value" "10 kΩ NTC"
+		(property "Value" "33kΩ NTC"
 			(at 188.9125 148.59 90)
 			(effects
 				(font
@@ -9846,15 +9846,15 @@
 		(dnp no)
 		(uuid "fd20267e-21cd-48f4-82d4-4ccd25dbd7f6")
 		(property "Reference" "R2"
-			(at 209.296 149.098 90)
+			(at 209.296 149.606 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10 kΩ"
-			(at 209.296 150.876 90)
+		(property "Value" "33kΩ"
+			(at 209.296 151.384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
