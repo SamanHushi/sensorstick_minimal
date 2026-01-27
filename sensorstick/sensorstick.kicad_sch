@@ -3257,7 +3257,7 @@
 		)
 		(uuid fa264e9e-9fe2-4e93-9dde-4838dafb2a30)
 	)
-	(text "SCD40 CO2 module (200mA) i²C: 0x62"
+	(text "SCD40 CO2 module (15mA) i²C: 0x62"
 		(exclude_from_sim no)
 		(at 129.286 27.686 0)
 		(effects
@@ -3370,12 +3370,6 @@
 		(uuid "1be32ffd-cb4e-4196-8aeb-253931663991")
 	)
 	(junction
-		(at 123.19 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2035456a-d594-4779-a25a-a3c42e83746c")
-	)
-	(junction
 		(at 240.03 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3398,12 +3392,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bb3cc2d-9165-4413-9821-fb1957482d27")
-	)
-	(junction
-		(at 123.19 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c85b1d2-d27c-4c47-90d4-fcc84674711f")
 	)
 	(junction
 		(at 213.36 115.57)
@@ -3460,10 +3448,22 @@
 		(uuid "7635b9f1-1045-4fd7-8da3-7b36ce1c5861")
 	)
 	(junction
+		(at 121.92 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a0aec1e-b596-4c0d-ae0d-bdbf05cd05d4")
+	)
+	(junction
 		(at 226.06 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84dc2ba8-fd99-4183-b2a4-2cc05c7c0b6d")
+	)
+	(junction
+		(at 121.92 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cc916d6-555e-4332-8238-3e662261b812")
 	)
 	(junction
 		(at 208.28 44.45)
@@ -3881,16 +3881,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 116.84) (xy 130.81 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c2aba95-a56c-4419-b85f-3776dbb361c2")
-	)
-	(wire
-		(pts
 			(xy 161.29 110.49) (xy 163.83 110.49)
 		)
 		(stroke
@@ -3931,6 +3921,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 109.22) (xy 130.81 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43215104-4a71-4ee7-93fa-e0b8ca526e10")
+	)
+	(wire
+		(pts
 			(xy 54.61 115.57) (xy 54.61 118.11)
 		)
 		(stroke
@@ -3948,16 +3948,6 @@
 			(type default)
 		)
 		(uuid "47d08c86-202d-427d-8054-e6c7eac423ba")
-	)
-	(wire
-		(pts
-			(xy 123.19 109.22) (xy 130.81 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48fccdc4-acd9-43c6-aabc-33fe6936cbf3")
 	)
 	(wire
 		(pts
@@ -4071,6 +4061,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 116.84) (xy 130.81 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608337af-9760-4f33-b584-e4c42394dd29")
+	)
+	(wire
+		(pts
 			(xy 218.44 55.88) (xy 226.06 55.88)
 		)
 		(stroke
@@ -4131,7 +4131,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 116.84) (xy 123.19 116.84)
+			(xy 116.84 116.84) (xy 121.92 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4651,7 +4651,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 109.22) (xy 123.19 109.22)
+			(xy 119.38 109.22) (xy 121.92 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6010,7 +6010,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 123.19 113.03 0)
+		(at 121.92 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6018,7 +6018,7 @@
 		(dnp no)
 		(uuid "4f93f50d-6d02-4b69-b117-97337e3afdbd")
 		(property "Reference" "C2"
-			(at 128.27 113.03 90)
+			(at 127 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6026,7 @@
 			)
 		)
 		(property "Value" "1μF"
-			(at 126.492 113.03 90)
+			(at 125.222 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6034,7 +6034,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 124.1552 116.84 0)
+			(at 122.8852 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +6043,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 113.03 0)
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +6052,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 123.19 113.03 0)
+			(at 121.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +6061,7 @@
 			)
 		)
 		(property "LCSC" "C1591"
-			(at 130.81 113.03 0)
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
