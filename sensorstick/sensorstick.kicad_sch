@@ -2429,6 +2429,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:VEML7700-TR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VEML7700-TR"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LED-SMD_4P-L6.8-W2.4_VEML7700-TR"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C504893"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VEML7700-TR_0_1"
+				(rectangle
+					(start -3.81 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 3.81 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -3068,6 +3222,18 @@
 		(uuid 63322b69-1944-4c21-8abc-e5aae41881a3)
 	)
 	(rectangle
+		(start 185.42 88.9)
+		(end 256.54 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 95e5178e-d76c-4ba1-81bb-9cdc90019e32)
+	)
+	(rectangle
 		(start 29.845 29.21)
 		(end 101.6 77.47)
 		(stroke
@@ -3091,9 +3257,9 @@
 		)
 		(uuid fa264e9e-9fe2-4e93-9dde-4838dafb2a30)
 	)
-	(text "SCD40 CO2 module (200mA)"
+	(text "SCD40 CO2 module (200mA) i²C: 0x62"
 		(exclude_from_sim no)
-		(at 119.888 27.94 0)
+		(at 129.286 27.686 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3101,9 +3267,9 @@
 		)
 		(uuid "13bdac08-0442-40a4-a070-60e85b73c34c")
 	)
-	(text "SGP41 VOC module (4.6mA)"
+	(text "SGP41 VOC module (3.0 mA) I²C: 0x59"
 		(exclude_from_sim no)
-		(at 121.412 87.376 0)
+		(at 127.254 87.122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3131,9 +3297,9 @@
 		)
 		(uuid "8731804a-af58-44bf-9149-8409e6208336")
 	)
-	(text "SHT4X"
+	(text "WSEN-HIDS (320 μA) i²C: 0x44"
 		(exclude_from_sim no)
-		(at 195.58 27.94 0)
+		(at 201.168 27.686 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3150,6 +3316,16 @@
 			)
 		)
 		(uuid "b4b4e30e-d965-4a68-9603-28a87b443c6b")
+	)
+	(text "VEML7700 (0.5 μA) I²C: 0x10"
+		(exclude_from_sim no)
+		(at 199.898 87.122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea540d11-ef8a-4392-a8a2-08a559ff8c5a")
 	)
 	(junction
 		(at 228.6 50.8)
@@ -3230,6 +3406,12 @@
 		(uuid "2c85b1d2-d27c-4c47-90d4-fcc84674711f")
 	)
 	(junction
+		(at 213.36 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e6795c8-173f-437b-aacb-1b9aa27c18b4")
+	)
+	(junction
 		(at 181.61 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3260,10 +3442,22 @@
 		(uuid "5d5ba123-83b7-432d-a5e7-fc78ef78b860")
 	)
 	(junction
+		(at 223.52 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dad5399-1235-45da-9f49-0d8829ee6827")
+	)
+	(junction
 		(at 208.28 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65afa0f7-554e-4714-a94b-70ad48bd9389")
+	)
+	(junction
+		(at 213.36 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7635b9f1-1045-4fd7-8da3-7b36ce1c5861")
 	)
 	(junction
 		(at 226.06 55.88)
@@ -3284,6 +3478,18 @@
 		(uuid "a2b2e790-60fb-4e3e-a562-3ed6b484105d")
 	)
 	(junction
+		(at 200.66 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a374e08c-ccfd-4668-a6b6-f458e0cde87b")
+	)
+	(junction
+		(at 200.66 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd15df17-b094-4005-b46b-4fcba8edc58e")
+	)
+	(junction
 		(at 121.92 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3300,6 +3506,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb4cd111-e40c-4e5b-8195-96a52e414c89")
+	)
+	(junction
+		(at 203.2 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3101480-6913-447f-9327-b3ad8cf29902")
+	)
+	(junction
+		(at 223.52 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8499639-58b0-4e69-a448-07c9a6b2ae97")
 	)
 	(junction
 		(at 148.59 53.34)
@@ -3453,6 +3671,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 115.57) (xy 223.52 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dbd31ea-be36-49e4-b532-3987320fb20d")
+	)
+	(wire
+		(pts
 			(xy 44.45 50.8) (xy 45.72 50.8)
 		)
 		(stroke
@@ -3460,6 +3688,26 @@
 			(type default)
 		)
 		(uuid "1100336c-884e-4000-a16b-ba1cb604a145")
+	)
+	(wire
+		(pts
+			(xy 232.41 113.03) (xy 231.14 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117c556c-a77f-442e-834b-7eed330a0d98")
+	)
+	(wire
+		(pts
+			(xy 223.52 107.95) (xy 213.36 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e9127e-7ceb-4b65-8469-8a3a95ffa1d6")
 	)
 	(wire
 		(pts
@@ -3550,6 +3798,16 @@
 			(type default)
 		)
 		(uuid "2a13e168-6d4a-47a8-ba06-7281d5f32a69")
+	)
+	(wire
+		(pts
+			(xy 198.12 118.11) (xy 203.2 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8dbc7f-5945-4489-8848-f64ac1659edf")
 	)
 	(wire
 		(pts
@@ -3723,6 +3981,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 115.57) (xy 213.36 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf9bdf8-d27c-4191-b3f5-3d4407d4f872")
+	)
+	(wire
+		(pts
 			(xy 228.6 50.8) (xy 228.6 58.42)
 		)
 		(stroke
@@ -3793,6 +4061,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 107.95) (xy 223.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3aa65b-3ff8-44b5-b0b7-ca1cc0dc78dc")
+	)
+	(wire
+		(pts
 			(xy 218.44 55.88) (xy 226.06 55.88)
 		)
 		(stroke
@@ -3830,6 +4108,16 @@
 			(type default)
 		)
 		(uuid "6a4ac15f-f76b-43f8-96ba-90bc492b6749")
+	)
+	(wire
+		(pts
+			(xy 200.66 110.49) (xy 232.41 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf1f0a5-7c76-4ed8-b4f1-7791448837c0")
 	)
 	(wire
 		(pts
@@ -4053,6 +4341,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 115.57) (xy 213.36 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2075f28-1070-45d8-87a4-9a5c09272f79")
+	)
+	(wire
+		(pts
 			(xy 129.54 125.73) (xy 129.54 127)
 		)
 		(stroke
@@ -4060,6 +4358,16 @@
 			(type default)
 		)
 		(uuid "a38455a0-d51d-450a-92ef-ac9cbc224505")
+	)
+	(wire
+		(pts
+			(xy 200.66 93.98) (xy 200.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a468f0b0-bd97-44f4-a051-e51ce85f44a2")
 	)
 	(wire
 		(pts
@@ -4113,6 +4421,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 113.03) (xy 231.14 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b373b465-0002-4c77-b3ed-064eab6f5d42")
+	)
+	(wire
+		(pts
 			(xy 208.28 68.58) (xy 208.28 72.39)
 		)
 		(stroke
@@ -4130,6 +4448,16 @@
 			(type default)
 		)
 		(uuid "b6771932-3fce-4b50-9db9-0bf2854f19db")
+	)
+	(wire
+		(pts
+			(xy 200.66 96.52) (xy 203.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85e4c89-9b85-4bcc-9593-a607f4dece57")
 	)
 	(wire
 		(pts
@@ -4213,6 +4541,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 95.25) (xy 213.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d9b606-946e-474f-be94-e8b469ee4bcd")
+	)
+	(wire
+		(pts
 			(xy 250.19 148.59) (xy 250.19 149.86)
 		)
 		(stroke
@@ -4263,6 +4601,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 110.49) (xy 200.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc411d1-4841-4314-983a-0820d409a838")
+	)
+	(wire
+		(pts
 			(xy 181.61 151.13) (xy 181.61 153.67)
 		)
 		(stroke
@@ -4270,6 +4618,26 @@
 			(type default)
 		)
 		(uuid "ed6cfa48-ada2-4569-8062-a0d4d16c9fb0")
+	)
+	(wire
+		(pts
+			(xy 200.66 106.68) (xy 200.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee958e85-7b75-405b-ba43-a1a2e95756f3")
+	)
+	(wire
+		(pts
+			(xy 203.2 106.68) (xy 203.2 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0018367-74ea-4b29-b97c-b54071a32992")
 	)
 	(wire
 		(pts
@@ -4300,6 +4668,26 @@
 			(type default)
 		)
 		(uuid "f42c201f-06b9-4bd3-bb16-e64762e551dc")
+	)
+	(wire
+		(pts
+			(xy 213.36 102.87) (xy 213.36 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9db9dc9-dc64-4b93-8fda-78ca3cb44a04")
+	)
+	(wire
+		(pts
+			(xy 203.2 118.11) (xy 232.41 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa50967c-6103-4a4c-b785-135c7ffc1993")
 	)
 	(wire
 		(pts
@@ -4412,6 +4800,16 @@
 		(uuid "c0b6abfb-ed3d-4d61-9787-ba5521b1435f")
 	)
 	(label "IC2_SDA_3.3"
+		(at 198.12 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c60bca99-d6a2-4512-9963-51cf3b4b8512")
+	)
+	(label "IC2_SDA_3.3"
 		(at 163.83 50.8 0)
 		(effects
 			(font
@@ -4420,6 +4818,16 @@
 			(justify left bottom)
 		)
 		(uuid "d8606cda-414d-4762-97c3-2f34b8698497")
+	)
+	(label "I2C_SCL_3.3"
+		(at 198.12 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "de3d847c-1a9a-4637-a234-2ea5427481fd")
 	)
 	(label "I2C_SCL_3.3"
 		(at 44.45 48.26 180)
@@ -4492,6 +4900,76 @@
 			(project ""
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
 					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c3e3349-a2ec-4185-9852-0e95eb291722")
+		(property "Reference" "R3"
+			(at 215.9 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10Ω"
+			(at 215.9 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 211.582 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97a5af27-3e64-4f8d-aa8b-74ffa038ac56")
+		)
+		(pin "2"
+			(uuid "d60629bd-d2fb-4066-84e1-676d60f7f786")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5037,6 +5515,99 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:2D02WGJ0103TCE")
+		(at 201.93 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ffa5a8f-46c8-4808-a36b-9928d7a08116")
+		(property "Reference" "RN4"
+			(at 204.724 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2x 10k Array"
+			(at 207.264 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:RES-ARRAY-SMD_0402-4P-L1.0-W1.0-BL"
+			(at 210.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.royalohm.com/assets/pdf/products/smd/22.pdf"
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2765527"
+			(at 213.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2765527"
+			(at 207.01 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c54d2d7a-402f-4c42-9584-b424cd48da88")
+		)
+		(pin "3"
+			(uuid "16c7c28c-6207-4615-b5d2-554315cdb50e")
+		)
+		(pin "1"
+			(uuid "3221d5b0-5d3d-4873-8f16-3c77fa610d94")
+		)
+		(pin "2"
+			(uuid "56d3a580-c4a6-48f3-8dc3-e5ca34de44b4")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "RN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:2D02WGJ0103TCE")
 		(at 165.1 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5124,6 +5695,82 @@
 			(project "sensorstick"
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
 					(reference "RN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 223.52 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37ee904f-08ab-4688-93a6-6410923aac6e")
+		(property "Reference" "C7"
+			(at 227.33 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 227.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 224.4852 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 231.14 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dfe7029-508a-4c2a-b234-5991a1e1227c")
+		)
+		(pin "2"
+			(uuid "3d8c93fe-b081-4685-b571-bc29ce14cf58")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5579,6 +6226,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 200.66 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a50abbc-bf8e-4678-841f-966f30440148")
+		(property "Reference" "#PWR03"
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 198.374 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 200.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e041c1b-3c33-4498-811e-f0d6dc91e3fb")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 193.04 53.34 180)
 		(unit 1)
@@ -5784,6 +6497,72 @@
 			(project ""
 				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 213.36 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8066de4c-9138-4581-bf80-9cac4583e2d7")
+		(property "Reference" "#PWR018"
+			(at 213.36 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 211.074 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 213.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82e22e31-57f2-4277-b37f-32a0205038b1")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6364,6 +7143,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 213.36 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1474040-dd73-4149-9e13-9ea33631535b")
+		(property "Reference" "C8"
+			(at 217.424 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10μF"
+			(at 217.424 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 214.3252 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 220.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a20952f-00dc-47ac-92c7-bcb8b7f0c579")
+		)
+		(pin "2"
+			(uuid "1eb2e9ff-9a33-4e8c-b544-e745a3392e69")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 86.36 69.85 0)
 		(unit 1)
@@ -6707,6 +7562,91 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:VEML7700-TR")
+		(at 238.76 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9c5998d-1cdb-4db3-b906-eaf42a536b2b")
+		(property "Reference" "LED1"
+			(at 243.84 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VEML7700"
+			(at 243.84 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L6.8-W2.4_VEML7700-TR"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C504893.pdf"
+			(at 238.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C504893"
+			(at 238.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41905c68-b4e4-4c40-9bbc-f19436eced02")
+		)
+		(pin "3"
+			(uuid "db48d95a-4f80-4e87-a76a-1f5fd26357d3")
+		)
+		(pin "4"
+			(uuid "38bb5032-cc92-41ad-aa20-daee88e8d4f8")
+		)
+		(pin "2"
+			(uuid "3eaccacd-f133-4b9f-bb36-2639168ed171")
+		)
+		(instances
+			(project ""
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:2D02WGJ0103TCE")
 		(at 149.86 44.45 90)
 		(unit 1)
@@ -7033,7 +7973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://sensirion.com/media/documents/5FE8673C/61E96F50/Sensirion_Gas_Sensors_Datasheet_SGP41.pdf"
 			(at 146.05 110.49 0)
 			(effects
 				(font
@@ -7219,7 +8159,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SCD40-D-R2"
+		(property "Value" "SCD40"
 			(at 131.064 47.244 0)
 			(effects
 				(font
@@ -7418,6 +8358,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 213.36 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4254595-abe2-424d-a755-43774b473ff4")
+		(property "Reference" "#PWR06"
+			(at 213.36 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f4c241e-d279-423c-bfd1-9266f1e098ca")
+		)
+		(instances
+			(project "sensorstick"
+				(path "/7be59ae3-cff4-4640-882e-dfffcfbe988a"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Humidity:SHT4x")
 		(at 210.82 53.34 180)
 		(unit 1)
@@ -7435,8 +8441,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SHT4x"
-			(at 203.708 46.99 0)
+		(property "Value" "WSEN-HIDS"
+			(at 220.98 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
