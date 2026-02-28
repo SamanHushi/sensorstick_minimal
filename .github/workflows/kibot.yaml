@@ -22,9 +22,12 @@ jobs:
   kibot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
       - uses: INTI-CMNB/KiBot@v2_k9
         with:
+          cache3D: YES
           # Required - kibot config file
           config: sensorstick/config.kibot.yaml
           # optional - prefix to output defined in config
@@ -40,7 +43,7 @@ jobs:
           path: output
 
       - name: Upload artifact (GitHub pages)
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: output/Assembly
 
@@ -64,10 +67,10 @@ jobs:
     needs: kibot
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Download output artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: output
           path: output
