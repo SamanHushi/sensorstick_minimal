@@ -24,7 +24,7 @@ outputs:
       # https://kibot.readthedocs.io/en/master/configuration/outputs/IBoMOptions.html
       output: "index.%x"
       extra_data_file: "%F.kicad_pcb"
-      extra_fields: Description,LCSC
+      extra_fields: Description,LCSC,partdb_id
       dark_mode: true
       highlight_pin1: selected
       no_compression: true

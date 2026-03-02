@@ -688,6 +688,12 @@
           "label": "Description_1",
           "name": "Description_1",
           "show": false
+        },
+        {
+          "group_by": true,
+          "label": "partdb_id",
+          "name": "partdb_id",
+          "show": true
         }
       ],
       "filter_string": "",
