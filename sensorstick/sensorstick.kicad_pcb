@@ -889,6 +889,32 @@
 				)
 			)
 		)
+		(property "VALUE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06bb93c7-891c-4c54-bdad-020fe8c67c3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "partdb_id" "248"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c17afdc-96c1-447a-a964-715f6791e55e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*")
 		(path "/2c781b90-c1c0-4c5f-b05b-5381ac76e04e")
 		(sheetname "/")
