@@ -139,7 +139,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -374,6 +373,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1c2f6486-f618-4964-abea-0975608acea6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dc79318-9868-40c8-9aaa-16eb1c43fcb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87436dbd-c894-4ca3-b816-982672345ff1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "partdb_id" "247"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bf1eee1-d766-48fa-989d-e8ac6f9d6d43")
 			(effects
 				(font
 					(size 1 1)
@@ -915,6 +953,19 @@
 				)
 			)
 		)
+		(property "PROD_ID" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39e3def2-0eb2-4df7-8dfd-63bc2ca4f3f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*")
 		(path "/2c781b90-c1c0-4c5f-b05b-5381ac76e04e")
 		(sheetname "/")
@@ -1291,6 +1342,48 @@
 				(justify mirror)
 			)
 		)
+		(property "PROD_ID" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c6aafc78-a971-4e14-8807-43788321065e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d1d5e0f7-2d87-48ad-ba2e-fa35a3d0c898")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "584"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c60b02e3-8377-491a-a31f-7ea37b8eb3b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Sensirion?DFN*1.5x1.5mm*P0.8mm*SHT4x*")
 		(path "/f4d87b62-2812-4fee-a0ff-defeb47ba9a5")
 		(sheetname "/")
@@ -1587,6 +1680,48 @@
 				(justify mirror)
 			)
 		)
+		(property "PROD_ID" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e174628c-4f09-483a-8448-d16003f6bd3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2b02add4-bf4f-452f-b631-898dadbd2fec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "573"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f8bb5e66-cf6a-433a-9ddb-1eec3a1c0634")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/51f9b328-9d9f-44f8-aa4c-0995de9a2d6e")
 		(sheetname "/")
@@ -1792,6 +1927,48 @@
 				(justify mirror)
 			)
 		)
+		(property "PROD_ID" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "299cbfa8-a111-4db1-ad67-3ae1ced65426")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2986180c-eb8e-498a-85d5-19d0c875daf9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "208"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "719c56f7-abb1-417f-bc8b-b883b9adee64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/0c3e3349-a2ec-4185-9852-0e95eb291722")
 		(sheetname "/")
@@ -1992,6 +2169,48 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "210957ed-a96e-4703-8acd-01b9538db52e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "21b91129-4a14-406f-8c8e-e3502e482c87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "571"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "555af251-9607-4e18-864a-caf8da2463b2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -2228,6 +2447,48 @@
 				(justify mirror)
 			)
 		)
+		(property "PROD_ID" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f331f52f-afa1-4f2d-a4cb-c933ded0eb6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e2dcbb02-4738-470e-8c7b-4bece75a64f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "431"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "90f9521e-8cab-49a4-8e9b-5e39366f3c15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/3b58bed2-2e85-4e88-8397-07debd49d1d4")
 		(sheetname "/")
 		(sheetfile "sensorstick.kicad_sch")
@@ -2424,6 +2685,48 @@
 				(justify mirror)
 			)
 		)
+		(property "PROD_ID" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "81697a0d-9a97-450b-87ee-4e8f72346c9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "be868694-4843-4706-8958-b80157e9957f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "428"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3b83f774-7619-4239-a39b-71dd9e5bce50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4f93f50d-6d02-4b69-b117-97337e3afdbd")
 		(sheetname "/")
@@ -2590,7 +2893,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10μF"
 			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "b35e821e-c79d-40b0-8bda-155c3968605c")
@@ -2634,6 +2937,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8d92adea-aa8b-478b-aefe-f09600d6bff5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "adf7cb74-0db3-4bf5-9c13-5d9cbb921b28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1025420c-e5db-4ec3-84cf-38749a5f9626")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "19"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5d2cad3c-c4a4-4560-bb69-815401e001ac")
 			(effects
 				(font
 					(size 1 1)
@@ -2854,6 +3199,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "80dab089-d923-49d6-ae1a-84632e5c4238")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "627a28a9-8773-44cd-9fab-0c725aed0f8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dd0e2001-fabd-4bea-8bb2-a99ad590525b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "573"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "751ad3d5-50df-4041-ac09-ea1b4c8fbb45")
 			(effects
 				(font
 					(size 1 1)
@@ -3092,6 +3479,48 @@
 				(justify mirror)
 			)
 		)
+		(property "PROD_ID" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2cb828e1-fb28-485d-a4a2-b30dd7397712")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "43e212b8-1b99-413d-ac95-8e8b32bd8572")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "431"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b8f4cfcd-7d28-4fea-97f2-03d27be2dac1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/33a0234c-8c6e-443b-86f5-26a8476a7439")
 		(sheetname "/")
 		(sheetfile "sensorstick.kicad_sch")
@@ -3293,6 +3722,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "34d12acb-22a2-40ab-a08a-cdf80296dc1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3c69e64f-af62-40df-86e6-5ce201a73ea2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "226ba750-c9f0-42a3-b454-c025dac52033")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "428"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9abf7bca-d2fd-4767-8599-74fffff23288")
 			(effects
 				(font
 					(size 1 1)
@@ -3532,6 +4003,48 @@
 				(justify mirror)
 			)
 		)
+		(property "PROD_ID" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c5e29b3b-9ef8-4cd8-b64f-0459d1652b8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bb0d6f66-d5bf-4a0c-ad0d-08f296f15936")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "431"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0e32d5c9-78fa-49d0-8588-1d4641417d57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/cbc173a0-fb3d-4591-b65f-e2a104434ab1")
 		(sheetname "/")
 		(sheetfile "sensorstick.kicad_sch")
@@ -3731,6 +4244,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a5722ebb-591c-4cee-ad8f-b2094d3e63cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0da45eb9-ab48-4b2d-b456-9b547430a682")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a1e8acce-a9c3-434c-8f57-3d0dd5cf1056")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "429"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e615a22e-4124-4681-ab8f-e49497eee14b")
 			(effects
 				(font
 					(size 1 1)
@@ -4068,6 +4623,48 @@
 				(justify mirror)
 			)
 		)
+		(property "PROD_ID" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dc162f34-6f64-4702-a027-e7a78d885e08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f73166f4-afa0-4c42-bc44-1c2cc79824d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "19"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3b9c977d-bc7c-4fb4-9e46-7a28d4323953")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a1474040-dd73-4149-9e13-9ea33631535b")
 		(sheetname "/")
@@ -4285,6 +4882,48 @@
 				(justify mirror)
 			)
 		)
+		(property "PROD_ID" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "913e23b7-dfce-4ece-aec7-4a26bbb6556c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "061b9bbc-225f-4c92-8911-9e6024573d63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "589"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fdd138a8-5fe7-4eda-9622-9fa039adac59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/c9c5998d-1cdb-4db3-b906-eaf42a536b2b")
 		(sheetname "/")
 		(sheetfile "sensorstick.kicad_sch")
@@ -4457,7 +5096,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SGP41"
+		(property "Value" "SGP41-D-R4"
 			(at -5.7 0.225 90)
 			(layer "B.SilkS")
 			(uuid "bc6cb0d9-fe65-44f1-8e50-cf819699beff")
@@ -4655,6 +5294,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0c784275-b817-4000-969f-87b8cc410221")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "65e2deec-4fe4-4f68-919f-95ff27174ffc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b9e9c26c-f994-4e04-b1b8-7b34eb1e9b6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "551"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a6f07b30-c419-4a44-8c1c-ccdc64f66e6d")
 			(effects
 				(font
 					(size 1 1)
@@ -4926,7 +5607,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "100nF"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(uuid "b388b23b-b2dd-4af4-8c32-b49cf7f9cd90")
@@ -4970,6 +5651,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "170d85fc-b09f-420e-831f-432a9171536c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7a5bbdac-a1ee-4e93-9f23-eb73557de056")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9b49198e-fff5-40ac-8991-8c13b3a18ef3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "573"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a81ddd01-2f7e-4447-b5ac-1351666fa970")
 			(effects
 				(font
 					(size 1 1)
@@ -5199,6 +5922,48 @@
 				(justify mirror)
 			)
 		)
+		(property "PROD_ID" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0c5a7d7f-37a0-4560-b9d9-1185fac323ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "df20d23d-834f-476a-9a13-ba6fea3b96f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "573"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a9ba47de-ae95-44c8-a0ba-5176c31a52eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/62697c93-286e-45e4-947b-59f7db40d89d")
 		(sheetname "/")
@@ -5398,6 +6163,48 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7418e32f-c839-4189-ab99-ff64d6f7bc2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17d3161f-509c-49f9-82ec-222076f2096e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "566"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "27223dd7-8caf-49fe-812d-d0121f0e1a38")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -5857,6 +6664,48 @@
 				(justify mirror)
 			)
 		)
+		(property "PROD_ID" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1cfcf061-4807-4807-afa8-5bfd796178b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "32ebcaee-8605-436e-ab67-6cf0e47321c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "559"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "95eb4746-7e11-4081-89a6-6332953e56cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fd20267e-21cd-48f4-82d4-4ccd25dbd7f6")
 		(sheetname "/")
@@ -6058,6 +6907,48 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8be54a05-1491-4195-b5f1-41d883243c52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4c1a8489-3c6c-46de-9419-5acf105d3051")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "330"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57412d31-b925-4e33-9819-f5609b233de3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -6274,6 +7165,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "506cdffe-726d-4b36-8df1-2f93bc7d7ee2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9b857dfa-12f4-4806-b87f-20490e3505e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "26e3bacb-9756-4dae-9fc0-8858b1152f20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "573"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "eefe6186-5be0-4561-ab8f-c34e834b21ea")
 			(effects
 				(font
 					(size 1 1)
@@ -6513,6 +7446,48 @@
 				(justify mirror)
 			)
 		)
+		(property "PROD_ID" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "30454994-1dec-4b45-80bb-3d00c22c2f32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e3da0bab-a409-4eb4-b298-2fb0cda802ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "431"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b4fd4f56-b988-4b61-aaa5-a92e7fd8f21d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/2ffa5a8f-46c8-4808-a36b-9928d7a08116")
 		(sheetname "/")
 		(sheetfile "sensorstick.kicad_sch")
@@ -6702,6 +7677,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6acfa2dc-c5e0-4f6d-b1c0-caa686c64313")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PROD_ID" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "df523340-5210-4bd8-bce3-22ddb87f19ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VALUE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "282163ef-7dc4-4ba6-ba67-30265f414120")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "partdb_id" "573"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9b246c77-1bdc-4462-a5b8-91d722bb205b")
 			(effects
 				(font
 					(size 1 1)
