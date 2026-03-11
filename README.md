@@ -1,5 +1,7 @@
 # minimal-co2-pcb
 
+Project to conect multiple low power 5V and 12V devices, messure usage and control it with ESPHome 
+
 > [!NOTE]
 > This board has not been physically tested.
 
